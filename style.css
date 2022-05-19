@@ -1,0 +1,46 @@
+.heading{
+    color:rgb(50, 146, 50);
+}
+.poki{
+    width:100px;
+    object-fit: cover;
+}
+.container{
+    width:20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     background: rgb(242, 196, 196); 
+    border-radius: 15px;
+}
+.info{
+    padding:1rem;
+    text-align: justify;
+    color:rgb(11, 1, 1)
+}
+.poki-id{
+    margin-top:0;
+}
+section{
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap:2rem;
+    font-family:'Inter', sans-serif;
+    
+}
+body{
+    font-family:'Inter', sans-serif;
+    text-align: center;
+   
+}
+@media(min-width:700px){
+    section{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+@media(min-width:1200px){
+    section{
+        grid-template-columns:repeat(3,1fr);
+    }
+}
